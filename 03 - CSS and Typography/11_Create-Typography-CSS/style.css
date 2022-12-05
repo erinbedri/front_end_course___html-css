@@ -1,0 +1,43 @@
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+    font-family: Georgia, serif;
+
+}
+
+blockquote {
+    border-left: 3px solid rgb(221,221,221);
+    font-style: italic;
+}
+
+blockquote p {
+    margin-left: 20px;
+}
+
+.quote-author {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: lightslategrey;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
