@@ -1,0 +1,36 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 2px solid;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav ul {
+    padding: 0;
+}
+
+.nav-item {
+    padding: 0 12px;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 70px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav ul {
+    list-style: none;
+}
+
