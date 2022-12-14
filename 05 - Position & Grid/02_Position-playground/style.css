@@ -1,2 +1,43 @@
 @import url(https://use.fontawesome.com/releases/v6.1.1/css/all.css);
 
+body {
+    display: grid;
+    grid-auto-rows: 50%;
+}
+
+.viewpoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.viewpoint .card {
+    display: flex;
+    position: relative;
+
+    width: 25%;
+}
+
+.viewpoint .card img {
+    position: block;
+
+    box-shadow: 11px 10px 97px 0px rgba(0,0,0,0.75);
+}
+
+.viewpoint .card i {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+
+    color: white;
+}
+
+.first-viewpoint {
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 1%, rgba(8, 0, 138, 1) 11%, rgba(0, 255, 179, 1) 100%);
+}
+
+.second-viewpoint {
+    background: linear-gradient(90deg, rgba(179, 17, 182, 1) 1%, rgba(138, 44, 0, 1) 41%, rgba(255, 174, 0, 1) 100%);
+}
+
