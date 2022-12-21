@@ -1,0 +1,64 @@
+body {
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 6px 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-purple {
+    border: 1px solid blueviolet;
+    color: white;
+    background-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 55%;
+    position: relative;
+    padding: 3rem;
+    border-radius: 0.75rem;
+
+    background-color: rgb(233, 233, 233);
+}
+
+.container .card {
+    width: 50%;
+}
+
+.container .card .card__sub-title {
+    font-size: 0.75rem;
+}
+
+.container .card .card__title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.container .card .card__text {
+    line-height: 1.75rem;
+    margin-bottom: 1rem;
+    color:rgb(73, 73, 73)
+}
+
+.container .img img {
+    position: absolute;
+    width: 30%;
+    bottom: 0px;
+    right: 2rem;
+}
+
+.container .card__btns .btn-purple {
+    margin-right: 10px;
+}
