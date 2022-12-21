@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(238, 238, 238);
+
+    padding: 25px;
+}
+
+.cards-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 25px;
+}
+
+.cards-layout .card {
+    flex: 0 1 calc(25% - 1em);
+
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.cards-layout .card section {
+    padding: 20px;
+}
+
+.card-layout .card img {
+    max-width: 100%;
+    max-height: 100%;
+}
