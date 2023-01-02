@@ -1,0 +1,172 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+:root {
+  --clr-main: #e24e2a;
+  --clr-lights-gray: #b4b4b4;
+  --clr-gray: #383838;
+  --clr-green: #1b9772;
+  --clr-white: #fff;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  background-color: var(--clr-white);
+  padding: 1rem 2rem;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo .main {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--clr-gray);
+}
+
+.logo .divider {
+  height: 2.5rem;
+  width: 1px;
+  background-color: var(--clr-gray);
+}
+
+.logo .sub {
+  font-size: 0.75rem;
+}
+
+/* NAV */
+.nav .nav-list {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0px;
+}
+
+.nav .nav-item .nav-link {
+  color: var(--clr-gray);
+  text-decoration: none;
+
+  background-color: var(--clr-lights-gray);
+  padding: 1rem;
+}
+
+.nav .nav-item .nav-link.active {
+  color: var(--clr-white);
+
+  background-color: var(--clr-main);
+}
+
+/* HERO */
+.hero {
+  height: calc(100vh - 3rem - 40px);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.hero .hero--img-wrapper {
+  overflow: hidden;
+}
+
+.hero .hero--img-wrapper .hero--img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero .hero--description {
+  color: var(--clr-white);
+  background-color: var(--clr-main);
+
+  padding: 3rem 12rem;
+  text-align: center;
+}
+
+/* FEATURES */
+.features {
+  background-color: var(--clr-gray);
+  padding: 0;
+  margin: 0;
+}
+
+.features .features-list {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 6rem;
+  margin: 0;
+  text-align: center;
+}
+
+.features .feature .feature-icon {
+  background-color: var(--clr-main);
+  margin: 1rem auto;
+  width: 75px;
+}
+
+.features .feature .feature-icon i {
+  color: var(--clr-white);
+  font-size: 2rem;
+  padding: 1.15rem;
+}
+
+.feature .feature-title {
+  color: var(--clr-white);
+  margin-bottom: 1rem;
+}
+
+.feature .feature-divider {
+  background-color: var(--clr-lights-gray);
+  height: 1px;
+  margin-bottom: 1rem;
+}
+
+.feature .feature-desc {
+  color: var(--clr-lights-gray);
+}
+
+/* ACTION */
+.action {
+  padding: 4rem 16rem;
+  text-align: center;
+}
+.action .action-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.action .action-desc {
+  color: var(--clr-gray);
+  margin-bottom: 1.5rem;
+}
+
+.action .btn {
+  background-color: var(--clr-green);
+  color: var(--clr-white);
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border: none;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--clr-green);
+  color: var(--clr-white);
+  text-align: center;
+  padding: 4rem;
+}
+
+.footer span {
+  color: var(--clr-gray);
+}
