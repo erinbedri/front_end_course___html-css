@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+.registration-wrapper {
+  background-image: url("./images/background.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form {
+  background-image: url("./images/form-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 500px;
+  width: 700px;
+
+  border-radius: 20px;
+  padding: 60px 40px;
+}
+
+.registration-text {
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container label {
+  font-size: 12px;
+  color: rgb(138, 138, 138);
+  font-weight: 400;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.container input {
+  border: 0.25px solid gray;
+  border-radius: 14px;
+  margin-bottom: 15px;
+  padding: 2px;
+}
+
+.name-input {
+  display: flex;
+  gap: 10px;
+}
+
+.name-input input {
+  width: 100%;
+}
+
+.registerbtn {
+  font-size: 12px;
+  color: white;
+  background-color: rgb(212, 20, 20);
+  border: none;
+  border-radius: 18px;
+  padding: 8px 12px;
+  width: 50%;
+  margin: 10px auto;
+}
