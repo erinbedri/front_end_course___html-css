@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+:root {
+  --clr-main-text: #363434;
+  --clr-secondary-text: #8a7163;
+  --crl-green: #67784d;
+  --clr-main-dark: #b9b0ac;
+  --clr-main-light: #f2f0f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface", cursive;
+}
+
+i {
+  margin-right: 1rem;
+}
+
+/* HEADER */
+#header {
+  background-image: url("./image/image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+#header .header-left {
+  height: 10rem;
+  width: 13rem;
+  padding: 1rem;
+
+  position: relative;
+  top: 2rem;
+  left: 2rem;
+
+  border: 1px solid var(--clr-main-dark);
+  box-shadow: 10px 9px 12px -6px rgba(0, 0, 0, 0.75);
+}
+
+#header .header-title {
+  margin-bottom: 0.35rem;
+}
+
+#header .header-divider {
+  height: 2px;
+  width: 70%;
+  background-color: var(--clr-main-light);
+  margin-bottom: 0.25rem;
+}
+
+#header .header-right {
+  height: 14rem;
+  width: 16rem;
+  padding: 1rem;
+
+  position: relative;
+  top: 2rem;
+  right: 2rem;
+  float: right;
+  border: 1px solid var(--clr-main-dark);
+  background: linear-gradient(
+    90deg,
+    rgba(185, 176, 172, 1) 5%,
+    rgb(216, 216, 216) 80%
+  );
+  box-shadow: 10px 9px 12px -6px rgba(0, 0, 0, 0.75);
+  text-align: right;
+  line-height: 1.25rem;
+}
+
+#header .header-right p {
+  font-size: 0.75rem;
+  color: var(--clr-main-light);
+}
+
+#header .header-right .header-right-quot {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--clr-main-dark);
+}
+
+/* MAIN */
+#main {
+  display: grid;
+  grid-template-areas:
+    "services services facts"
+    "contact contact facts";
+}
+
+#main .services {
+  grid-area: services;
+  background-color: var(--clr-main-light);
+}
+
+#main .contact {
+  grid-area: contact;
+  background-color: var(--clr-main-light);
+}
+
+#main .facts {
+  grid-area: facts;
+  background-color: var(--clr-main-dark);
+}
+
+/* SERVICES */
+#main .services .services-title {
+  padding: 2rem;
+}
+
+#main .services .services-text {
+  padding: 0 2rem;
+}
+
+#main .services .services-para {
+  margin-bottom: 1rem;
+}
+
+#main .services .span-upper-bold {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* CONTACT */
+#main .contact .contact-title {
+  padding: 0 2rem;
+  padding-top: 3rem;
+}
+
+#main .contact .divider {
+  background-color: var(--clr-main-text);
+  height: 2px;
+  margin-bottom: 2rem;
+}
+
+#main .contacts {
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+
+  display: flex;
+  justify-content: first baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+#main .contact-input {
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+
+#main .contact-input .contact-input-field {
+  background-color: var(--clr-main-dark);
+  border-radius: 0.25rem;
+  border: none;
+  margin-right: 0.75rem;
+  height: 30px;
+}
+
+#main .contact-input .contact-btn {
+  background-color: var(--crl-green);
+  border-radius: 0.25rem;
+  border: none;
+  color: var(--clr-main-light);
+  font-size: 0.75rem;
+  height: 30px;
+  cursor: pointer;
+}
+
+#main .contact-input .contact-input-field::placeholder {
+  color: var(--clr-main-light);
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+
+#main .contacts .contact-info .span-bold {
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* FACTS */
+#main .facts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem;
+  line-height: 1.25rem;
+}
+
+#main .facts .fact {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+#main .facts .fact .fact-span {
+  color: var(--clr-main-light);
+  font-size: 4rem;
+  font-weight: 200;
+}
