@@ -1,0 +1,192 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+  --clr-green-main: #00d08e;
+  --clr-green-bg: #b2f1dd;
+  --clr-white: #ffffff;
+  --clr-font: #20252d;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  background-color: var(--clr-white);
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+#header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url("./image/computer-main.jpg"); /* W3C */
+  background-repeat: no-repeat;
+  /* background-size:100% 100%; */
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+#header .navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 0 5rem;
+}
+
+#header .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+
+#header .nav-btn {
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.25rem 1rem;
+  background-color: var(--clr-green-main);
+  color: var(--clr-white);
+  margin: 3rem;
+  cursor: pointer;
+}
+
+#header .nav-btn:hover {
+  background-color: var(--clr-white);
+  color: var(--clr-green-main);
+  margin: 3rem;
+}
+
+#header .nav-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#header .nav-desc {
+  width: 40%;
+  text-align: center;
+}
+
+#header .nav-link {
+  text-decoration: none;
+  color: var(--clr-white);
+  margin-bottom: 2rem;
+}
+
+/* REASONS */
+#main .reasons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--clr-white);
+}
+
+#main .reasons-text {
+  padding: 2rem 4rem;
+}
+
+#main .reasons-list {
+  padding: 0;
+  margin: 2rem 0;
+}
+
+#main .reasons-list li {
+  margin-bottom: 1.25rem;
+}
+
+#main .reasons-list i {
+  color: var(--clr-green-main);
+  margin-right: 1rem;
+}
+
+/* ADVANTAGES */
+#main .advantages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--clr-white);
+}
+
+#main .advantages-icons {
+  display: flex;
+  align-items: center;
+}
+
+#main .advantages-title {
+  text-align: center;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#main .advantages-icons-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+#main .advatage-item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main .advatage-item h3 {
+  color: var(--clr-green-main);
+}
+
+#main .advatage-item img {
+  width: 70px;
+  margin-bottom: 0.5rem;
+}
+
+#main .advantages-icons-list {
+  margin: 0;
+  padding: 0;
+}
+
+/* QUESTIONS */
+#main .questions {
+  background-color: var(--clr-green-main);
+}
+
+#main .questions-list-wrapper {
+  padding: 0 4rem;
+  text-align: center;
+}
+
+#main .questions-list {
+  display: flex;
+  column-gap: 3rem;
+  row-gap: 1.5rem;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+#main .questions-list .question-item {
+  flex: 23%;
+  margin: 0px 2rem;
+}
+
+#main .questions .questions-title {
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#main .questions .questions-list {
+}
+
+/* FOOTER */
+#footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+  background-color: var(--clr-green-main);
+}
