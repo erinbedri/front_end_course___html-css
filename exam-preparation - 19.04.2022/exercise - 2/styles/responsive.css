@@ -1,1 +1,156 @@
-//TODO
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .menu p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .menu ul li {
+    font-size: 1rem;
+  }
+
+  header div h1 {
+    font-size: 3rem;
+  }
+
+  header div p {
+    font-size: 0.75rem;
+  }
+
+  main .trainings {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .trainings div {
+    width: 65%;
+  }
+
+  main .instructors {
+    padding: 3rem;
+  }
+
+  main .instructors p {
+    font-size: 0.85rem;
+  }
+
+  main .instructors .instructors-pic {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .instructors .instructors-pic div {
+    width: 50%;
+  }
+
+  main .classes {
+    padding: 3rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  main .classes ul {
+    width: 100%;
+    gap: 0.25rem;
+  }
+
+  main .classes ul li {
+    width: 45%;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  main .classes ul li > p {
+    font-size: 3rem;
+  }
+
+  main .classes ul li div > h3 {
+    font-size: 1.25rem;
+  }
+
+  main .classes ul li div > p {
+    font-size: 0.75rem;
+  }
+
+  main .getInTouch {
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  main .getInTouch .form {
+    width: 100%;
+  }
+
+  main .getInTouch .form input,
+  main .getInTouch .form textarea {
+    font-size: 0.9rem;
+  }
+
+  main .getInTouch .form button {
+    font-size: 1rem;
+  }
+
+  main .getInTouch .map img {
+    position: unset;
+    transform: unset;
+  }
+
+  main .getInTouch .map::after {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .site-footer .wrapper {
+    display: grid;
+    grid-template-areas:
+      "dancehub dancehub"
+      "sitemap contacts";
+    column-gap: 10rem;
+  }
+
+  .site-footer .wrapper h3 {
+    padding-bottom: 1rem;
+  }
+
+  .about {
+    grid-area: dancehub;
+  }
+
+  .sitemap {
+    grid-area: sitemap;
+  }
+
+  .contacts {
+    grid-area: contacts;
+  }
+
+  .site-footer .wrapper .about > p {
+    font-size: 0.75rem;
+  }
+
+  .wrapper li {
+    font-size: 0.75rem;
+  }
+}
