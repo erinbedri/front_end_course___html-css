@@ -1,0 +1,229 @@
+:root {
+  --clr-main: #34b1c4;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.section {
+  padding: 1.5rem 8rem;
+}
+
+.text-green {
+  color: var(--clr-main);
+}
+
+/* HEADER */
+.header .logo {
+  font-size: 1.5rem;
+}
+
+.header .main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .main-nav .nav-items ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.header .main-nav .nav-items ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0.75rem;
+}
+
+.header .main-nav .nav-items ul li a:hover {
+  border-bottom: 4px solid var(--clr-main);
+}
+
+/* HERO */
+.main .hero {
+  background-image: url("./images/slide2.jpg");
+  height: 500px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.main .hero {
+  display: flex;
+  align-items: center;
+}
+
+.main .hero .hero-text {
+  height: 175px;
+  width: 375px;
+  padding: 0.75rem;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.5217437316723564) 0%,
+    rgba(0, 0, 0, 0.5357493339132529) 100%
+  );
+  color: white;
+}
+
+.main .hero button {
+  background-color: var(--clr-main);
+  color: white;
+  border-radius: 1rem;
+  padding: 0.25rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* WELCOME */
+.main .welcome {
+  text-align: center;
+}
+
+.main .welcome .welcome-title {
+  font-weight: 500;
+}
+
+.main .welcome .welcome-divider {
+  height: 3px;
+  width: 7%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: var(--clr-main);
+}
+
+.main .welcome .welcome-btn {
+  background-color: rgb(68, 68, 68);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 1.25rem;
+  margin: 1rem;
+}
+
+/* SERVICES */
+.main .services {
+  text-align: center;
+  background-color: lightgray;
+}
+
+.main .services .services-title {
+  font-weight: 500;
+}
+
+.main .services .services-divider {
+  height: 3px;
+  width: 7%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: gray;
+}
+
+.main .services .services-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .services .services-card {
+  width: 30%;
+  background-color: white;
+}
+
+.main .services .services-card div {
+  padding: 1rem;
+}
+
+.main .services .services-card div h3 {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.main .services .services-card div p {
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.main .services .services-card button {
+  color: white;
+  background-color: rgb(68, 68, 68);
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: none;
+  padding: 0.25rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+/* SUBSCRIBE */
+.main .subscribe {
+  text-align: center;
+  background-color: rgb(80, 80, 80);
+}
+
+.main .subscribe .subscribe-title {
+  font-weight: 500;
+  color: white;
+}
+
+.main .subscribe .subscribe-divider {
+  height: 3px;
+  width: 7%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+
+.main .subscribe .subscribe-desc {
+  color: white;
+  font-size: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.main .subscribe .subscribe-input input {
+  width: 450px;
+  padding: 0.25rem;
+  background-color: rgb(131, 131, 131);
+  border: none;
+  color: white;
+  border-radius: 0.35rem;
+  margin-right: 0.5rem;
+}
+
+.main .subscribe .subscribe-input input::placeholder {
+  color: rgb(218, 217, 217);
+  font-size: 0.85rem;
+  text-indent: 0.75rem;
+}
+
+.main .subscribe .subscribe-input button {
+  padding: 0.25rem 2rem;
+  background-color: rgb(120, 197, 223);
+  border: none;
+  color: white;
+  border-radius: 0.35rem;
+}
+
+/* FOOTER LINKS */
+.main .footer-links {
+  background-color: rgb(37, 37, 37);
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .footer-links h4 {
+  margin-bottom: 7px;
+}
+
+.main .footer-links p {
+  font-size: 0.75rem;
+  margin-bottom: 5px;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgb(22, 22, 22);
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
