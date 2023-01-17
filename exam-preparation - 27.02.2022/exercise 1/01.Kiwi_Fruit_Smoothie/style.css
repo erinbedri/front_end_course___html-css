@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,400;1,700&display=swap");
+
+body {
+  font-family: "PT Serif", serif;
+
+  display: flex;
+  align-items: center;
+}
+
+.recipe {
+  height: 400px;
+  width: 800px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1rem;
+
+  box-shadow: 0px 0px 15px 2px #000000;
+}
+
+.recipe .recipe--text {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+
+  background-image: url("./image/image1.png");
+}
+
+.recipe .recipe--text .recipe--title {
+  text-align: center;
+}
+
+.recipe .recipe--text .recipe--divider {
+  height: 1.5px;
+  background-color: lightgreen;
+  margin-bottom: 5px;
+}
+
+.recipe .recipe--text .recipe--subtitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.recipe .recipe--text .recipe--content {
+  margin-bottom: 2.25rem;
+  font-size: 0.9rem;
+}
+
+.recipe .recipe--text .recipe--desc {
+  margin-bottom: 3em;
+  font-size: 0.9rem;
+}
+
+.recipe .recipe--text .recipe--items {
+  display: grid;
+  grid-template-areas:
+    "calories protein fiber"
+    "calories-num protein-num fiber-num";
+  text-align: center;
+  border: 1.5px solid green;
+}
+
+.calories {
+  grid-area: calories;
+  font-weight: bold;
+  border: 1.5px solid green;
+}
+
+.protein {
+  grid-area: protein;
+  font-weight: bold;
+  border: 1.5px solid green;
+}
+
+.fiber {
+  grid-area: fiber;
+  font-weight: bold;
+  border: 1.5px solid green;
+}
+
+.calories-num {
+  grid-area: calories-num;
+  border: 1.5px solid green;
+}
+
+.protein-num {
+  grid-area: protein-num;
+  border: 1.5px solid green;
+}
+
+.fiber-num {
+  grid-area: fiber-num;
+  border: 1.5px solid green;
+}
+
+.recipe .recipe--img {
+  width: 100%;
+  height: 100%;
+}
+
+.recipe .recipe--img > img {
+  width: 100%;
+  height: 100%;
+  padding-left: 0;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.green-text {
+  color: green;
+  font-weight: bold;
+}
