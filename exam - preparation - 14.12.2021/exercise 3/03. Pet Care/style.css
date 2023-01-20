@@ -81,7 +81,7 @@ p {
   font-size: 1.25rem;
   font-weight: 600;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 #header .header--nav .main-nav .nav-item > a:hover {
