@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+:root {
+  --clr-text-main: #808293;
+  --clr-text-white: white;
+  --clr-bg: #54546d;
+  --clr-text-red: red;
+  --clr-text-green: rgb(57, 185, 57);
+
+  --clr-table-odd: #e6e6e6;
+  --clr-table-even: #f8f8f8;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--clr-text-main);
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.container {
+  padding: 1rem 5rem;
+}
+
+.text-center {
+  text-align: center;
+  padding: 0.75rem 4rem;
+}
+
+.text-green {
+  color: var(--clr-text-green);
+  font-size: 1.75rem;
+}
+
+.text-red {
+  color: var(--clr-text-red);
+  font-size: 1.75rem;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .main-logo {
+  height: 50px;
+}
+
+.header .main-nav .nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.header .main-nav .nav-links .nav-link a {
+  text-decoration: none;
+  color: var(--clr-text);
+}
+
+.header .main-nav .nav-links .nav-link a:hover {
+  text-decoration: underline;
+}
+
+/* STUDY */
+.study {
+  padding: 1rem 15rem;
+  margin: 2.5rem 0;
+}
+
+.study .study-table {
+  width: 100%;
+  margin-top: 3rem;
+  border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--clr-table-odd);
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--clr-table-even);
+}
+
+td {
+  padding: 0.75rem;
+}
+
+/* FINANCING */
+.financing {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  margin: 2.5rem 0;
+}
+
+.financing img {
+  width: 400px;
+  height: 150px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--clr-bg);
+  text-align: center;
+}
+
+.footer .footer-text {
+  color: var(--clr-text-main);
+  margin-bottom: 0;
+  padding: 0.75rem;
+}
