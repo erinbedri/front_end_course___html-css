@@ -1,0 +1,66 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, sans-serif;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 850px;
+}
+
+.btn {
+  color: white;
+  background-color: #03a87c;
+
+  border: none;
+  padding: 0.25rem 5rem;
+  cursor: pointer;
+
+  font-family: Georgia, Arial, Helvetica, sans-serif;
+}
+
+.green-highlight {
+  background-color: #cefde9;
+}
+
+.ads .ads--title-section {
+  margin-bottom: 2rem;
+}
+
+.ads .ads--title-section .title {
+  font-size: 2.75rem;
+}
+
+.ads .ads--text-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.ads .ads--text-section .left {
+  display: flex;
+  align-items: flex-end;
+}
+
+.ads .ads--text-section .right-title {
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+}
+
+.ads .ads--divider {
+  height: 1px;
+  background-color: lightgray;
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
